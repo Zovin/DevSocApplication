@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>DevSoc Application</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Temp</title>
+<link rel="stylesheet" href="./style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<style>
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+</style>
+</head>
+  <body>
+    <div class="fixed">
+      <a href="#title" class="page-links">Home</a>
+      <a href="#polyrhythms" class="page-links">Polyrhythms</a>
+      <a href="#circles" class="page-links">Circles</a>
+      <a href="#footer" class="page-links">Links</a>
+
+      <img src="temp1.jpg" class="user-pic" onclick="toggleMenu()">
+
+      <div class="sub-menu-wrap" id="subMenu">
+        <div class="sub-menu">
+          <div class="user-info">
+            <img src="temp1.jpg">
+            <label class="montserrat" style="font-size: 24px;">Zovin Anggleas</label>
+          </div>
+          <hr>
+          <label class="montserrat sub-menu-content">Age: 18</label>
+          <label class="montserrat sub-menu-content">Degree: Bachelor of Computer Science</label>
+          <label class="montserrat sub-menu-content">Hobbies: Reading | Gaming | </label>
+          <label class="montserrat sub-menu-content">I wanna add more stuff but cant think of anything</label>
+        </div>
+      </div>
+
+    </div>
+      <h1 id="title" class="title margin" style="margin-top: 5%; scroll-margin-top: 50px;">Polyrhythms</h1>
+    <div id="box2">
+      <canvas id="paper"></canvas>
+    </div>
+    <label class="montserrat hidden" style="font-size: 24px;">꩜꩜꩜꩜꩜You're gonna let me into DevSoc꩜꩜꩜꩜꩜</label>
+    <div id="polyrhythms" class="box1">
+      <h1 class="montserrat-title margin">Polyrhythms</h1>
+      <label class="montserrat margin">Polyrhythms are the simultaneous combination of contrasting rhythms in music.</label>
+      <label class="montserrat margin">Polyrhythms are a blend of harmony and discord by combining different rhythms that don't always line up. Harmony comes when these rhythms occasionally match up, while Discord happens when they don't align. I tried to recreate this effect through javascript which can be seen above (I hope you like it). maybe talk about how it repeats every 3 mins idk(harmony???)</label>
+      <label class="montserrat margin-last">The theme of this page is 'Harmony/Discord' and 'Circles'. I was originally planning to make circles the only theme, but while researching, I found something that fit the criteria for both. Hence why I made the page about Polyrhythms.</label>
+    </div> 
+    <div id="circles" class="box1">
+      <h1 class="montserrat-title margin">Circles</h1>
+      <div class="split margin">
+        <div class="circle">
+          <div class="small-circle">
+          </div>
+        </div>
+        <label class="montserrat" style="width: 60%;">A circle is a shape consisting of all points in a plane that are at a given distance from a given point, the centre. The circle has been known since before the beginning of recorded history. Natural circles are common, such as the full moon. Beyond their natural occurrence, circles have intriguing mathematical properties.</label>
+      </div>
+      <label class="montserrat margin">One of the most important is the area, which represents the space enclosed by the circle's boundary.</label>
+      <label class="montserrat">A = πr²</label>
+      <label class="montserrat margin-last">Where 'r' is the radius, or the distance from the center to any point on the circle.</label>
+    </div>
+    <script type="text/javascript" src="./javascript.js"></script>
+    <section>
+      <div class="wave wave1"></div>
+      <div class="wave wave2"></div>
+      <div class="wave wave3"></div>
+      <div class="wave wave4"></div>
+    </section>
+    <div id="footer">
+      <div class="social-icon">
+        <a class="links" href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+        <a class="links" href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+        <a class="links tinder" href="https://youtu.be/dQw4w9WgXcQ?si=4ptGyf_dxfrnClhE"><ion-icon name="flame-outline"></ion-icon></a>
+        <a class="links" href="#"><ion-icon name="logo-github"></ion-icon></a>
+        <a class="links" href="#"><ion-icon name="mail-outline"></ion-icon></a>
+      </div>
+      <label class="montserrat margin" style="color: black; opacity: 1;">I hope you liked this website (change these words font too also change the colour of footer)</label>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
